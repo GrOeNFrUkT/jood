@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&family=Roboto&display=swap'); */
+
+body {
+    background-image: url('images/background.svg');
+    background-position-y: -50rem;
+    background-position-x: -10rem;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.nav-link {
+    color: white !important;
+    position: relative;
+    font-size: 18px;
+    font-weight: medium;
+}
+.nav-link:hover {
+    color: #FFBB00 !important;
+}
+.nav-link:hover::after {
+    content: "";
+    height: 3px;
+    background: #FFBB00;
+    position: absolute;
+    bottom: 0.2rem;
+    left: 0.5rem;
+    right: 1.3rem;
+}
+.nav-item {
+    padding: 0.75rem;
+}
+.btn-primary {
+    background-color: #FFBB00;
+    border-radius: 0.5rem;
+    border: none;
+    margin-right: 4rem;
+}
+.btn-primary:hover {
+    background-color: #dda408;
+}
+.showcase-top {
+    display: flex;
+    margin-top: 2rem;
+}
+.showcase-top h1 {
+    color: white;
+    text-align: left;
+    font-size: 57px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 14rem;
+}
+.showcase-top p {
+    color: white;
+    font-size: 15px;
+}
+.btn-outline-primary {
+    color: white;
+    border-radius: 0.5rem;
+    border-color: white;
+    font-weight: medium;
+    margin-right: 1rem;
+}
+.ec-logo {
+    margin-top: 15rem;
+    position: relative;
+    padding: 4.2rem 2.9rem 4.2rem 2.9rem;
+}
+.about-us {
+    display: flex;
+    margin-top: 5rem;
+}
+.galaxy-phone {
+    margin-left: -10rem;
+    margin-right: 10rem;
+}
+.headline {
+    font-size: 40px;
+    font-weight: bold;
+}
+.about-us img {
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+.info {
+    color: #FFBB00;
+    background-color: #FFF5D9;
+    width: 87px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 6rem;
+}
+.lorem {
+    color: #8A8A8A;
+}
+.features {
+    display: flex;
+}
+.features-info1 {
+    display: flex;
+}
+.features-info2 {
+    display: flex;
+}
+.features-gray {
+    background-color: #FCFCFC;
+    margin-top: 5rem;
+    padding-bottom: 6rem;
+}
+.grid-image {
+    margin-left: -20rem;
+    margin-top: 10rem;
+    margin-right: 5rem;
+}
+.features-gray .container {
+    margin-top: 5rem;
+}
+.lorem-2 {
+    color: #8A8A8A;
+    font-size: 14px;
+}
+.lorem-features {
+    margin-top: 1.5rem;
+}
+.lorem-aboutus {
+    margin-top: 1.5rem;
+}
+.features-info1 img {
+    padding-right: 15px;
+    padding-bottom: 35px;
+}
+.features-info2 img {
+    padding-right: 15px;
+    padding-bottom: 35px;
+}
+.features-info1 h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.features-info2 h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.features-mover {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.features-mover2 {
+    margin-left: 4rem;
+}
+#phones {
+    margin-top: 60px;
+}
+.screens {
+    text-align: center;
+    margin: auto;
+}
+.app {
+    margin-top: 7rem;
+}
+.app img {
+    margin-left: -3rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    width: 100%;
+    height: auto;
+}
+.appstats {
+    background-image: url('images/world-map.svg');
+    width: 828px;
+    height: 363px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.appstats-flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 11rem;
+}
+.appstats-flex h2 {
+    color: #3096FE;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.appstats-flex h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+.appstats-flex2 {
+    display: flex;
+}
+.appstats-flex3 {
+    padding-right: 1rem;
+}
+.dlbg {
+    background-image: url('images/bg-download.png');
+    padding-bottom: 5rem;
+    width: auto;
+    height: auto;
+}
+.dl-app {
+    padding-top: 7rem;
+    padding-left: 6.5rem;
+}
+.dl-app h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    width: 728px;
+    height: 132px;
+}
+.dl-app p {
+    color: white;
+    width: 600px;
+    height: 54px;
+}
+.dl-app img {
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+.contact-us {
+    text-align: center;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+::placeholder {
+    color: #CCCCCC !important;
+    opacity: 1;
+  }
+ input[type=text], select, textarea {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    background-color: #FBFBFB;
+    resize: none;
+  }
+  input[type=submit] {
+    background-color: #3096FE;
+    color: white;
+    width: 220px;
+    height: 60px;
+    border-radius: 0.5rem;
+    box-shadow: none;
+    border: none;
+  }
+  .send {
+      text-align: center;
+  }
+  input[type=submit]:hover {
+    background-color: #FFBB00; 
+  }
+  .bg-footer {
+    background-image: url('images/bg-footer.png');
+    margin-top: 4rem;
+    height: 300px;
+  }
+  .footer-logo {
+    padding-top: 3rem;
+    text-align: center;
+  }
+  .footer-navbar {
+    margin: auto;
+  }
+  .social {
+    text-align: center;
+    padding: 0.5rem;
+  }
+  .social img {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+  .btn-outline-primary:hover {
+    background-color: #FFBB00;
+    border: 1px solid #FFBB00;
+  }
+  .two-phones img {
+    max-width:100%;
+}
+
+@media (max-width: 1200px) {
+    .eclogo {
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    .eclogo {
+        display: none;
+    }
+    .nav-link:hover::after{
+        display: none;
+    }
+    .two-phones {
+        display: none;
+    }
+    .galaxy-phone {
+        display: none;
+    }
+    .centered-text {
+        justify-content: center;
+        text-align: center;
+    }
+    .features-mover2 {
+        display: none;
+    }
+    .dlbg {
+        display: none;
+    }
+    .appstats-flex2 {
+        display: unset;
+    }
+}
+@media (max-width: 768px) {
+    .eclogo {
+        display: none;
+    }
+    .nav-link:hover::after {
+        display: none;
+    }
+}
+@media (max-width: 576px) {
+    .eclogo {
+        display: none;
+    }
+    .nav-link:hover::after {
+        display: none;
+    }
+    .appstats {
+        padding-top: 10rem;
+        background-image: none;
+        height: auto;
+        width: auto;
+    }
+}
